@@ -21,7 +21,7 @@ import com.indooratlas.android.sdk.examples.SdkExample;
 public class BackgroundActivity extends AppCompatActivity {
 
     IALocationManager mManager;
-    LocationStore mStore;
+    LocationStore mStore; 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
