@@ -149,7 +149,7 @@ public class MapsOverlayActivity extends FragmentActivity implements LocationLis
                     ? "VENUE "
                     : "FLOOR_PLAN ") + region.getId());
         }
-
+ 
         @Override
         public void onExitRegion(IARegion region) {
             if (mGroundOverlay != null) {
