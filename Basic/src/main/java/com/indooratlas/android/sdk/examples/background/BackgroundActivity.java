@@ -28,7 +28,7 @@ public class BackgroundActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_background);
         mManager = IALocationManager.create(this);
-        mStore = LocationStore.obtain(this); 
+        mStore = LocationStore.obtain(this);   
         LocalBroadcastManager.getInstance(this).registerReceiver(mReceiver,
                 new IntentFilter("location-update"));
     }
